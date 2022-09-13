@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[no of row are::10]]>
+    </line>
+    <line>
+      <![CDATA[login success]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[login success]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Username cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[login success]]>
+    </line>
+    <line>
+      <![CDATA[Password cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Username cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[login success]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33905" started-at="2022-08-26T12:39:16Z" finished-at="2022-08-26T12:39:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33905" started-at="2022-08-26T12:39:16Z" finished-at="2022-08-26T12:39:49Z">
+      <class name="driverFactory.DriverScript">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:driverFactory.DriverScript@59fa1d9b]" name="setUp" is-config="true" duration-ms="7016" started-at="2022-08-26T18:09:16Z" finished-at="2022-08-26T18:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:driverFactory.DriverScript@59fa1d9b]" name="Login" duration-ms="26550" started-at="2022-08-26T18:09:23Z" finished-at="2022-08-26T18:09:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[no of row are::10]]>
+            </line>
+            <line>
+              <![CDATA[login success]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+            <line>
+              <![CDATA[login success]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Username cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[login success]]>
+            </line>
+            <line>
+              <![CDATA[Password cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Username cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:driverFactory.DriverScript@59fa1d9b]" name="tearDown" is-config="true" duration-ms="292" started-at="2022-08-26T18:09:49Z" finished-at="2022-08-26T18:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.DriverScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
